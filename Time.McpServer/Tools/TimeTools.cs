@@ -53,7 +53,7 @@ public class TimeTools
     /// </summary>
     /// <param name="timeConversionInput">An object containing the time to convert, source timezone, and target timezone.</param>
     /// <returns>The converted time and details about the conversion.</returns>
-    [McpServerTool(Name = "convert_date_time", UseStructuredContent = true), Description("Convert date and time between timezones.")]
+    [McpServerTool(Name = "convert_time", UseStructuredContent = true), Description("Convert date and time between timezones.")]
     public static TimeConversionResult ConvertTime(TimeConversionInput timeConversionInput)
     {
         try
